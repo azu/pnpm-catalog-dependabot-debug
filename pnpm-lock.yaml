@@ -7,8 +7,8 @@ settings:
 catalogs:
   default:
     lodash:
-      specifier: 4.17.23
-      version: 4.17.23
+      specifier: 4.18.0
+      version: 4.18.0
 
 importers:
 
@@ -16,19 +16,19 @@ importers:
     dependencies:
       lodash:
         specifier: 'catalog:'
-        version: 4.17.23
+        version: 4.18.0
 
   packages/a:
     dependencies:
       lodash:
         specifier: 'catalog:'
-        version: 4.17.23
+        version: 4.18.0
 
 packages:
 
-  lodash@4.17.23:
-    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+  lodash@4.18.0:
+    resolution: {integrity: sha512-l1mfj2atMqndAHI3ls7XqPxEjV2J9ZkcNyHpoZA3r2T1LLwDB69jgkMWh71YKwhBbK0G2f4WSn05ahmQXVxupA==}
 
 snapshots:
 
-  lodash@4.17.23: {}
+  lodash@4.18.0: {}
